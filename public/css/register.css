@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+h1,h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline ;
+}
+body{
+   margin-bottom: 10px;
+    background-color: #080E28;
+}
+.body{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.input{
+    display: flex;
+    background-color: #8c98ca;
+    margin: 10px;
+}
+   
+.input input{
+    display: block;
+    background-color: #8c98ca;
+    position: relative;
+    
+    height: 50px;
+    max-width: 500px;
+    width: 100%;
+    outline: none;
+    font-size: 3rem;
+    color: #ffff;
+    margin-top: 8px;
+    border: 1px solid #8c98ca;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+.input input::placeholder {
+    color: rgb(241, 239, 239);
+    font-size: 26px;
+}
+.custom-button {
+    justify-content: center;
+    background-color: #007BFF; /* Primary blue color */
+    color: #ffffff; /* White text color */
+    font-size: 16px; /* Font size */
+    padding: 10px 20px; /* Padding on top/bottom and left/right */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Hand cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    text-decoration: none; /* Remove any underline if applied to a link */
+    display: flex; /* To help with positioning and layout */
+    margin: 10px;
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: #0056b3; /* Darker blue shade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly more shadow */
+}
+
+/* Active effect (button press) */
+.custom-button:active {
+    transform: scale(0.98); /* Slightly scale down the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow */
+}

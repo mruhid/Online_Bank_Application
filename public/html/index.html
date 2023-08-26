@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav_logo">Ru-ML</a>
+
+            <ul class="nav_items">
+                <li class="nav_items">
+                    <a href="" class="nav_link">Home</a>
+                    <a href="" class="nav_link">Services</a>
+                    <a href="" class="nav_link">Contact</a>
+                    <a href="./register.html" class="nav_link">Register</a>
+
+                </li>
+            </ul>
+            <button id="formopen" class="button">Login</button>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home">
+        <div class="form_container">
+            <i class='bx bx-message-square-x'></i>
+            <!-- Login form -->
+            <div class="form login_form">
+                <form action="/login" method="post">
+                    <h2>Login</h2>
+                    <div class="input_box">
+                        <input type="email" name="useremail" placeholder="Enter your email" required>
+                        <i class='bx bx-envelope'></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" name="userpassword" placeholder="Enter your password" required>
+                        <i class='bx bx-lock'></i>
+                        <i class='bx bx-low-vision'></i>
+                    </div>
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" name="" id="check">
+                            <label for="checkbox">Remember me</label>
+                        </span>
+                        <a href="" class="forgot_pw">Forgot password?</a>
+                    </div>
+                    <button class="button">Login Now</button>
+                    <div class="login_signup">
+                        Don't have a account? <a href="./sign_up.html" id="signup">Signup</a>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    <div class="body">
+        <h4>Welcome this web page.You can use for any bank aplications. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Dicta culpa voluptatibus nemo cupiditate excepturi?</h4>
+    </div>
+    </section>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

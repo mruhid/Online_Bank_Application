@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  background-color: white;
+
+}
+.left-icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+gap: 10px;}
+.bxs-user-circle{
+font-size: 40px;
+color: rgb(32, 32, 133);
+}
+.rigth-icon{
+    font-size: 20px;
+    gap: 19px;
+    color: #000;
+}
+span{
+    font-size: 12px;
+    color: darkgray;
+}
+.bank{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #F5F5F5;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+.sendmoney{
+  display: flex;
+  margin: 16px;
+  gap: 10px;
+}
+.send{
+    background: #000;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 6px;
+}
+.add{
+    background: #000;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 6px;
+}
+
+.money-amount{
+    font-size: 40px;
+}
+
+/* qorxmaz app */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.esas {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.esas button {
+    background-color: #3b8ae0;
+    padding: 15px 35px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: #3b8ae0;
+    border-radius: 25px;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
+.esas button:hover {
+    background-color: azure;
+    color: black;
+}
+
+.logo img {
+    width: 600px;
+}
+
+.screen {
+    width: 450px;
+    height: 100px;
+    background-color: #3b8ae0;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.screen h6 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 35px;
+}
+
+.reklam {
+    background: linear-gradient(90deg, #E1EBFF 9.88%, #AFB9CD 92.09%);
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img {
+    background-image: url(https://abb-bank.az/storage/uploads/files/1662988216_banner.webp);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+.reklam h3 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.reklam h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.reklam a {
+    padding: 15px 35px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #262626;
+    transition: 0.3s;
+}
+
+.reklam a:hover {
+    color: white;
+    background-color: #262626;
+}

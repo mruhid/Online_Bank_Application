@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debit Card Input Mockup</title>
+    <link rel="stylesheet" href="../css/sendmoney.css">
+</head>
+<body>
+    <form action="/sendmoney" method="post">
+    <div class="card-input-container">
+        <label for="cardNumber">Enter Debit Card Number:</label>
+        <input type="text" id="cardNumber" name="CardNumber" placeholder="1234 5678 9012 3456" maxlength="19">
+        <button onclick="submitCard()">Submit</button>
+    </div>
+    <script src="../js/sendmoney.js"></script>
+    </form>
+</body>
+</html>

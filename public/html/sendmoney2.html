@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debit Card Information & Transaction</title>
+    <link rel="stylesheet" href="../css/sendmoney2.css">
+</head>
+<body>
+    <div class="card-info-container">
+        <h2>Debit Card Details</h2>
+        <div class="info-item">
+            <label>User Name:</label>
+            <span id="userName">John Doe</span>
+        </div>
+        <div class="info-item">
+            <label>Card Number:</label>
+            <span id="cardNumber">**** **** **** 1234</span>
+        </div>
+        
+        
+        <h2>Transaction</h2>
+
+
+        <form action="/send" method="post">
+
+        <div class="info-item">
+            <label for="amount">Amount to Send:</label>
+            <input type="number" id="amount" placeholder="Enter Amount" step="0.01" min="0">
+            
+        
+            <button onclick="sendMoney()">Send Money</button>
+        </div>
+        </form>
+        
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

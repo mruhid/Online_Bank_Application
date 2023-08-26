@@ -1,0 +1,40 @@
+<div class="bank">
+        <span>My balans</span>
+        <div class="money-amount">1111$</div>
+        <div class="sendmoney">
+            <div class="add"><i class='bx bx-plus-circle' ></i>Add money</div>
+            <div class="send"><i class='bx bx-right-arrow-alt' ></i> <a  style="color: white;" href="./sendMoney.html">Send Money</a></div>
+            .
+        </div>
+    </div>
+    <div class="esas">
+        <div class="logo"></div>
+    </div>
+    <div class="esas">
+        <div class="screen" id="screen">
+            <h6>Uygun emeliyyatlari etmek ucun asagidaki buttonlara click edin.</h6>
+        </div>
+    </div>
+    <div class="esas">
+        <button id="balans">Cari balans</button>
+        <button id="medaxil">Medaxil</button>
+        <button id="mexaric">Mexaric</button>
+        <button id="son">Son odenis tarixi</button>
+        <button onclick="tesdiq()">Kredit odenisi</button>
+        <button id="borc">Qaliq borc</button>
+    </div>
+    <div class="reklam">
+        <div>
+            <h3>
+                Onlayn kredit al!
+            </h3>
+            <h5>
+                12.9%-dən başlayaraq 30 000 AZN-dək nağd krediti onlayn əldə et
+            </h5>
+            <a href="kredit.html">Kredit al</a>
+        </div>
+        <div class="img"></div>
+    </div>
+    <script src="../js/bankApp.js"></script>
+</body>
+</html>
